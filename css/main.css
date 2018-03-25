@@ -304,7 +304,8 @@ a:visited, .header__phone-number, .header__sidebar-list {
   font-weight: bold;
 }
 .footer__logo{
-  
+  position: relative;  
+  right: 50px;
   float: left;
   font-family: "Gora Free", Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -399,4 +400,10 @@ display: block;
 
 .header__schedule:active {
   color: #c77814;
+}
+
+
+.logo:link, .logo:visited, .logo:active{
+  color: #c77814;
+  text-decoration: none;
 }
