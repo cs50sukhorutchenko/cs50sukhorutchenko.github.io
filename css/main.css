@@ -58,7 +58,7 @@
   
 }
 
-}
+
 .header__sidebar-list:link{
   text-decoration: none;
 }
@@ -67,10 +67,7 @@ a:visited, .header__phone-number, .header__sidebar-list {
   color: #ffffff;
   text-decoration: none;
 }
-.header__schedule:visited {
-  color: #c77814;
-  text-decoration: underline;
-}
+
 
 .header__info{
   margin: 0;
@@ -220,10 +217,6 @@ a:visited, .header__phone-number, .header__sidebar-list {
   color: #000000;
 }
 
-.last-news,{
-  float: right;
- 
-}
 .last-news{
   float: right;
   position: relative;
@@ -297,7 +290,7 @@ a:visited, .header__phone-number, .header__sidebar-list {
 }
 
 .footer__text{
-  margin-top: opx;
+  
   float: left;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -305,7 +298,7 @@ a:visited, .header__phone-number, .header__sidebar-list {
   padding-left: 20px; /* Поля вокруг текста */
   margin-right: 20px; /* Отступ справа */
   color: #ffffff;
-  width: 256;
+  
 }
 .footer__text-word{
   font-weight: bold;
@@ -328,9 +321,6 @@ a:visited, .header__phone-number, .header__sidebar-list {
   height: 15px;
 
 }
-.footer__social-tittle{
-  margin-bottom: opx;
-}
 
 .footer-item{
   display: inline-block;
@@ -343,7 +333,7 @@ width: 20px;
 height: 20px;
 border-radius: 200px;
 display: block;
-margin-top: opx;
+
 }
 .footer-item{
   margin-right: 15px;
@@ -390,3 +380,23 @@ margin-top: opx;
    .header__sidebar-text:link {
       color: #ffffff;
   }
+
+  .header__sidebar-text:visited {
+    color: #ffffff;
+  }
+  .header__sidebar-texta:active {
+    color: #ffffff;
+  }
+
+  .header__schedule:visited {
+    color: #c77814;
+    text-decoration: underline;
+  }
+
+  .header__schedule:link {
+    color: #c77814;
+}
+
+.header__schedule:active {
+  color: #c77814;
+}
