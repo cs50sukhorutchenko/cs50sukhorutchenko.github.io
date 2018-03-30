@@ -141,6 +141,7 @@
 
 
 .header__banner{
+  margin: 0 auto;
   width: 1100px;
   height: 627px;
   background-color: #fff;
