@@ -234,6 +234,8 @@ h1, h2, h3, h4, h5, h6{
   color: #656464;
 }
 
+
+
 .reviews__avatar {
   width: 160px;
   height: 160px;
@@ -277,6 +279,8 @@ h1, h2, h3, h4, h5, h6{
 
 .pagination {
   text-align: center;
+  margin-left: 120px;
+  font-weight: bold;
 }
 
 .pagination__title {
@@ -346,7 +350,7 @@ h1, h2, h3, h4, h5, h6{
   width: 1100px;
   background-image: url('../img/background/background.jpg');
   background-repeat: repeat-x;
-  margin-bottom: 117px;
+  margin-bottom: 92px;
   
 }
 .info__text{
@@ -370,17 +374,25 @@ h1, h2, h3, h4, h5, h6{
   background-color: #f5f5f5;
   margin: 0 auto;
   padding-left: 78px;
+  padding-bottom: 50px;
 }
+
+
 .form__help{
   display: inline-block;
   width: 33%;
 }
+.form_title{
+  margin-bottom: 29px;
+}
 .form__help-text, .form__name, .comment, .form__help-text{
   display: block;
+  margin-bottom: 10px;
 }
 .form__foto-check{
   display: inline-block;
-  width: 33%;
+  width: 43%;
+  vertical-align: middle;
 }
 .comment{
   width: 560px;
@@ -389,7 +401,8 @@ h1, h2, h3, h4, h5, h6{
 .form__button{
   display: inline-block;
   width: 25%;
-  float: right;
+  vertical-align: middle;
+ 
 }
  .footer>.container {
   background-color: #131415;
