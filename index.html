@@ -1,299 +1,188 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Афродита</title>
-  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burgers</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div claess="wrapper">
+        <div class="maincontent">
+            <section class="section hero">
+                <div class="conteainer hero__conteiner">
+                    <header class="header">
+                        <div class="header__logo">
+                            <a href="" class="logo">
+                                <img src="img/logo.svg" alt="logo" class="logo__img">
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item"><a href="#2" class="nav__link">О нас</a></li>
+                                    <li class="nav__item"><a href="#3" class="nav__link">Бургеры</a></li>
+                                    <li class="nav__item"><a href="#4" class="nav__link">Команда</a></li>
+                                    <li class="nav__item"><a href="#5" class="nav__link">Меню</a></li>
+                                    <li class="nav__item"><a href="#6" class="nav__link">Отзывы</a></li>
+                                    <li class="nav__item"><a href="#6" class="nav__link">Контакты</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__btn">
+                                <a href="" class="order-link">Заказать</a>
 
-  <div class="wrapper">
-    
-    <header class="header">
-      <div class="container">
-        <div class="header__top">
-          <div class="header__left">
-              <a href="#" class="logo">Афродита</a>
-          </div>
-          
-          <div class="header__center">
-            <ul class="sidebar__list">
-              <li class="sidebar__item">
-                <a href="#" class="sidebar__text">
-                  <img src="img/header/main_icon.png" class="sidebar-img" alt="молния">
-                  <span class="sidebar__text-item">Главная</span>
-                </a>
-              </li>
-              <li class="sidebar__item">
-                <a href="#" class="sidebar__text star">
-                  <img src="img/header/star.png" class="sidebar-img" alt="звезда">
-                  <span class="sidebar__text-item">Отзывы</span>
-                </a>
-              </li>
-              <li class="sidebar__item">
-                <a href="#" class="sidebar__text gan">
-                  <img src="img/header/geem.png" class="sidebar-img" alt="гантеля">
-                  <span class="sidebar__text-item">Услуги</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="header__right">
-            <a href="tel:+788000039210" class="phone">8 (800) 00-392-10</a>
-            <a href="#" class="work">
-              <div class="work__text">
-                  График работы
-              </div>
-            </a>
-            <!-- <div class="work__info">
-              <span class="work__day">пн-вс: 09:00-20:00</span> <br>
-              <span class="work__time">обед: 14:00-14:30  </span>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </header>    
-        <div class="header__banner">
-          <div class="container">
-            <div class="banner">
-              <img src="img\banner\banner.jpg" class="banner__img" alt="Баннер">
-           </div>
-           </div>
-        </div>
-    
-    <main class="main-content">
-      <div class="feature">
-        <div class="container">
-          <h2 class="title">Особенности</h2>
-          <ul class="feautere__listes">
-            <li class="feautere__item">
-              <div class="feautere__avatar">
-                <img src="img/feautere/flower.png" class="feautere__content-picture" alt="цветок">
-              </div>
-  
-              <div class="feautere__content">
-                <h3 class="feautere__content-title">уникальность</h3>
-                <div class="feautere__content-text">
-                  Мы делаем все,
-                </div>
-                <div class="feautere__content-text">
-                  для вашего комфорта
-                </div>
-                <ul class="feautere__content-list">
-                  <li class="feautere__content-item"> Питание включено</li>
-                  <li class="feautere__content-item">Багаж (5 кг)</li>
-                  <li class="feautere__content-item">Душ / баня</li>
-                </ul>
-      
-              </div>    
-            </li>
-            <li class="feautere__item">
-              <div class="feautere__avatar starn">
-                <img src="img/feautere/star.png" class="feautere__content-picture" alt="звезда">
-               </div>
-  
-              <div class="feautere__content">
-                <h3 class="feautere__content-title">премиум-класс</h3>
-                <div class="feautere__content-text">
-                  Наш зал оборудован
-                </div>
-                <div class="feautere__content-text">
-                  тренажёрами A-класса
-                </div>
-                <ul class="feautere__content-list">
-                  <li class="feautere__content-item">Качество</li>
-                  <li class="feautere__content-item">Продуктивность</li>
-                  <li class="feautere__content-item">Результат</li>
-                </ul>    
-              </div>   
-            </li>
-            <li class="feautere__item">
-              <div class="feautere__avatar painter">
-                <img src="img/feautere/painter.png" class="feautere__content-picture" alt="палитра">
-              </div>
-  
-             <div class="feautere__content">
-                <h3 class="feautere__content-title">личный тренер</h3>
-                <div class="feautere__content-text">
-                  Тренер сделает всё
-                </div>
-                <div class="feautere__content-text"> 
-                  для вашего результата
-                </div>
-                <ul class="feautere__content-list">
-                  <li class="feautere__content-item">Программа</li>
-                  <li class="feautere__content-item">Питание</li>
-                  <li class="feautere__content-item">План тренеровок</li>
-                </ul>    
-              </div>  
-            </li>
-          </ul>
-        </div>  
-      </div>
-      <div class="last-news">
-        <div class="container">
-          <h2 class="title">Последние новости</h2>
-          <ul class="news__list">
-              <li class="feeds__item clearfix">
-                <div class="feeds__avatar clearfix">
-                        <img src="img/news/cosmos.jpg" class="feeds__avatar-picture" alt="космос">
-                </div>
-                <div class="feeds__content">
-                  <div class="feeds__date">12.10.2016</div>
-                  <h3 class="feeds__username">Похудение с помощью бодибилдинга!</h3>
-                  <p class="feeds__text">
-                    Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
-                  </p>
-                </div>
-              </li>
-              <li class="feeds__item clearfix">
-                <div class="feeds__avatar clearfix">
-                  <img src="img/news/fire.jpg" class="feeds__avatar-picture" alt="фаер">
-                </div>
-                <div class="feeds__content">
-                  <div class="feeds__date">01.02.2016</div>
-                  <h3 class="feeds__username">Заражай друзей, получай призы!</h3>
-                  <p class="feeds__text">
-                    Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-                  </p>
-                </div>
-              </li>
-              <li class="feeds__item clearfix">
-                <div class="feeds__avatar clearfix">
-                  <img src="img/news/note.jpg" class="feeds__avatar-picture" alt="ноут">
-                </div>
-                <div class="feeds__content">
-                  <div class="feeds__date">22.12.2015</div>
-                  <h3 class="feeds__username">Фрилансер? Выпрями спину!</h3>
-                  <p class="feeds__text">
-                    Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! 
-                  </p>
-                </div>
-              </li>
-            </ul>
-
-            <div class="last-news-top">
-              <div class="last-news__title">топ новостей</div>
-              <div class="last-news__title-monse">за сентябрь</div>
-              <ul class="last-news__list">
-                <li class="last-news__item">
-                    <div class="last-news__avatar">
-                      <a href="#" class="last-news__link">
-                        <img src="img/news/mensport.jpg" class="last-news__avatar-picture" alt="спорт">
-                      </a>
+                            </div> 
+                        </div>
+                    </header>
+                    <div class="hero__content">
+                        <div class="hero__img">
+                            <img src="img/content/drops.png" alt="drops">
+                        </div>
+                        <div class="hero__description">
+                            <h2 class="section__title">
+                                Мы делаем
+                            </h2>
+                            <div class="hero__description-text">
+                                натуральные бургеры
+                            </div>
+                        </div>
                     </div>
-                </li>
-                <li class="last-news__item">
-                  <div class="last-news__avatar">
-                    <a href="#" class="last-news__link">
-                      <img src="img/news/eat.jpg" class="last-news__avatar-picture" alt="еда">
-                    </a>
-                  </div>
-                </li>
-                <li class="last-news__item">
-                    <div class="last-news__avatar">
-                      <a href="#" class="last-news__link">
-                        <img src=" img/news/gan.jpg" class="last-news__avatar-picture" alt="спорт">
-                      </a>
-                    </div>
-                </li>
-              </ul>
-            </div>
+                </div>
+            </section>
+            <section class="section best">
+                <div class="container">
+                    <h2 class="section__title section__title--best">
+                        Мы лучшие
+                    </h2>
+                </div>
+            </section>  
 
-            <div class="pagination">
-                <span class="pagination__text-number">Страница <span class="pagination__current">1</span> из <span class="pagination__total">7</span></span>
-                <a href="#" title="На предыдущую страницу " class="pagination__link left--prev">‹</a>
-                <ul class="pagination__list">
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">1</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">2</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">3</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">4</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">5</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">6</a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link">7</a>
-                  </li>
-                </ul>
-                <a href="#" title="На следующую страницу" class="pagination__link">›</a>
-            </div>
-        </div>
-      </div>
-    </main>
-  </div>
-
-  <footer class="footer">
+            <section class="section reviews">
+                
+                    <ul class="reviews__list">
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/fo00to1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Анна Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                        <button class="button button_color_black">Подробнее</button>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>
+                            </div>
+                        </li>
     
-      <div class="container clearfix">
-        <div class="footer__col">
-          <div class="footer__text">
-            Сделано с любовью и старанием <br> на курсе «HTML + CSS» в
-            <a href="https://loftschool.com/">LoftSchool</a>. <br> Автор работы: <span class="bold-text">Сухорутченко Владимир</span>
-          </div>
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Константин Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Виктрия Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                                
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Артем Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Илья Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Анастасия Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Владимир Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                            <button class="button button_color_black">Подробнее</button>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+    
+                        <li class="reviews__item">
+                            <div class="review">
+                                <div class="review__img" style="background-image: url(img/photos/foto1.jpg)"></div>
+                                <div class="review__content">
+                                    <h5 class="review__title">Сергей Спилберг</h5>
+                                    <div class="review__description">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</div>
+                                    <div class="review__button">
+                                        <button class="button button_color_black">Подробнее</button>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nesciunt fuga recusandae numquam, corporis porro! Omnis accusamus corrupti blanditiis quibusdam iste rem, modi eaque tenetur laborum, voluptatem voluptatibus quo voluptate!</p>
+                                    </div>    
+                                </div>    
+                            </div>
+                        </li>
+                    </ul>
+    
+                
+            </sectioin>      
+            <div class="nav-sidebar">
+                    Sidebar!!!
+            </div> 
         </div>
-        <div class="footer__col footer__col_mid">
-          <div class="footer__logo">
-            <a href="#" class="end_logo">Афродита</a>
-        </div>
-        </div>
-        <div class="footer__col footer__col_last">
-          <div class="socials">
-            <div class="socials__title">Наши социальные сети</div>
-            <ul class="socials__list">
-              <li class="socials__item">
-                <a href="" class="socials__link socials__link_vk">
-                    <img src="img\footer\vk.png" class="footer__social-img" alt="Фейсбук">
-                </a>
-              </li>
-              <li class="socials__item f">
-                <a href="" class="socials__link socials__link_fb">
-                    <img src="img\footer\fb.png" class="footer__social-img" alt="Фейсбук">
-                </a>
-              </li>
-              <li class="socials__item">
-                <a href="" class="socials__link socials__link_gp">
-                    <img src="img\footer\google.png" class="footer__social-img" alt="Фейсбук">
-                </a>
-              </li>
-              <li class="socials__item">
-                <a href="" class="socials__link socials__link_tw">
-                    <img src="img\footer\twitter.png" class="footer__social-img" alt="Фейсбук">
-                </a>
-              </li>
-              <li class="socials__item">
-                <a href="" class="socials__link socials__link_mail">
-                    <img src="img\footer\mail.png" class="footer__social-img" alt="Фейсбук">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-        
-  </footer>
-
+    </div>
 </body>
 </html>

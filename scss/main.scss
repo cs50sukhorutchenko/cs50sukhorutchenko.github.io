@@ -1,0 +1,17 @@
+//config
+
+  @import "config/variables.scss";
+  @import "config/mixin.scss";
+ // @import "config/normalize.scss";
+
+//base
+
+  @import "layout/fonts.scss";
+  @import "layout/base.scss";
+  @import "layout/adjustment.scss";
+
+//section
+
+  @import "section/hero.scss";
+  @import "section/best.scss";
+  @import "section/review.scss";
