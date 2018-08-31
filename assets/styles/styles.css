@@ -1,0 +1,157 @@
+body {
+  
+  background: #c7c1c1;
+}
+.main-header {
+  background-color: #375e88;
+  border: 1px solid #375e88;
+  padding-bottom: 20px;
+}
+
+.main-header_logo {
+  width: 300px;
+  margin: 25px auto;
+}
+.nav{
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around
+}
+.nav_item{
+  list-style-type: none;
+    margin-right: 25px;
+    border-bottom: 2px solid transparent;
+    padding: 5px 9px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.nav_item-link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #c3d6ed;
+  font-size: 23px;
+}
+.nav_item:hover {
+  border-bottom: 2px solid #c3d6ed;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+/*main*/
+.add-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.add-item{
+  
+  display: inline-block;
+  padding: 5px 25px;
+  margin-left: 5px;
+}
+/*serch-------------------------------------------*/
+
+ .search-input [type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.search-container .search-button:hover {
+  background: #ccc;
+}
+
+
+/*serch-------------------------------------------*/
+.motto{
+  text-transform: uppercase;
+  text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size:18px
+}
+
+.add-btn {
+  
+  background-color: #375e88;
+  color: white;
+  font-size: 16px;
+  padding: 9px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.add-btn:hover {
+  background-color: #294768;
+}
+/*serch-------------------------------------------*/
+.layout-blog{
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.title-news{
+  text-align: center;
+  background: #8ca7c5;
+  color: rgba(75,74,69,0.8);
+  text-shadow: 1px 2px 3px #DAD7C5, 0 0 0 #000, 1px 2px 3px #DAD7C5;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -16px 0px -17px 0px;
+  padding: 5px 6px 4px 5px;
+  position: relative;
+}
+
+.news-list{
+
+  overflow: hidden;
+  background-color: #375e88;
+  color: white;
+  font-size: 16px;
+  padding: 0px;
+  padding-left: 10px;
+  width: 210px;
+}
+
+.topik{
+  margin-left: 50px;
+}
+
+/*--------------topik---------------*/
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  margin-left: 60px;
+  width: 75%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #375e88;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Add a card effect for articles */
+
+

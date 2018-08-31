@@ -1,0 +1,21 @@
+<svg width="300" height="80" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#375e88" id="canvas_background" height="82" width="302" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(2.465026835930672,0,0,2.180357055153166,-182.99788712616095,-175.80802272600798) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="24" id="svg_1" y="100.786647" x="74.943988" stroke-width="0" fill="#000000">SPORTIV</text>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="10.5" x2="292.355342" y1="10.5" x1="266" stroke-width="7.5" fill="none"/>
+  <line stroke="#ff0255" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="25.5" x2="286" y1="25.5" x1="271" stroke-width="7" fill="none"/>
+  <ellipse ry="3" rx="2.5" id="svg_11" cy="25" cx="104" stroke-width="8" stroke="#ff0255" fill="none"/>
+  <line stroke="#ff0255" stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="52.5" x2="295" y1="53.5" x1="4.999991" fill-opacity="null" stroke-opacity="null" fill="none"/>
+  <text font-style="normal" stroke="#ff0255" transform="matrix(0.8378846004790858,0,0,0.6865872819291211,79.29424882001209,68.56757908540965) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_13" y="7.139861" x="-14.076124" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">DO IT TOGETHER</text>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_15" y2="40.5" x2="292.355342" y1="40.5" x1="266" stroke-width="7.5" fill="none"/>
+ </g>
+</svg>
